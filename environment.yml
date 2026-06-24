@@ -1,0 +1,16 @@
+name: dist-shift-diagnosis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - streamlit        # module E: the interactive monitoring dashboard (app.py)
+  - ipykernel        # registers into the shared JupyterLab; not a full jupyter install
+  - pip
+# Recreate with:  micromamba env create -f environment.yml
+# The dataset (data/dataset.csv) is built upstream by scripts/build_dataset.py, which needs the
+# separate intraday-momentum repo + its cached data; the ML pipeline here only needs this env.

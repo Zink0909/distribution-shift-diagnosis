@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+*.pkl
+*.parquet
+data/_*/
+reports/*_files/
+# keep data/dataset.csv tracked — it is the small, reproducible modelling table
+
+# private study/teaching notes — never upload to GitHub
+_private/

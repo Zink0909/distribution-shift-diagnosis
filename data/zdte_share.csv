@@ -1,0 +1,12 @@
+year,zdte_share_pct,source
+2016,5,cboe_anchor
+2017,8,interpolated
+2018,12,interpolated
+2019,16,interpolated
+2020,19,interpolated
+2021,25,interpolated
+2022,38,cboe_anchored_event
+2023,45,cboe_anchor
+2024,48,cboe_anchor
+2025,53,cboe_anchor
+2026,55,extrapolated
